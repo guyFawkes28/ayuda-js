@@ -3,13 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
+  <path d="M4 11H2v3h2zm5-4H7v7h2zm5-5v12h-2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z"/>
+</svg>
     <title>Detail top</title>
 </head>
 <body>
     <!-- Detail top -->
-    <main>
-        <button> Volver al listado </button>
+    <main >
+        <div class="d-flex justify-content-center align-items-center row w-100" style="min-height: 100vh;">
+            <div class="col-md-6">
+                <button type="button" class="btn btn-secondary btn-sm"> volver al listado</button>
+                <div class="card mt-3">
+                    <div class="d-flex gap-5 pt-5 px-5 align-items-start justify-content-between">
+                        <div>
+                            <h1>
+                                Ciudad de México
+                            </h1>
+                            <p>
+                                <small class="text-body-secondary">Lat: 19.4326 / Lon: -99.1332</small>
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-primary btn-sm rounded-pill py-2 px-3" type="button">Activo</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <figure>
+                        <blockquote class="blockquote">
+                            <p>Monitoreo climático y ambiental en la zona metropolitana para prevención de contingencias ambientales y apoyo en la toma de decisiones para planeación urbana.</p>
+                        </blockquote>
+                        </figure>
+                    </div>
+                </div>
+                <!-- Contenedor condiciones actuales -->
+                <div class="d-flex gap-4 ">
+                    <div class="card mt-3">
+                        <div class="d-flex row gap-5 pt-5 px-5">
+                                <div class="d-flex row gap-5">
+                                    <h4>Condiciones Actuales</h4>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <span><h1>22 °</h1><small class="text-body-secondary">c</small></span>
+                                            <small class="text-body-secondary">Sensación térmica: 20°C</small>
+                                        </div>
+                                        <div>
+
+                                        </div>                                        
+                                    </div>
+                                </div>    
+                        </div>
+                        <div>
+                            <div class="card">
+                                <p>viento</p>
+                                <p>15 km/h</p>
+                                <p>NE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3 d-flex row gap-3">
+                        <div class="card d-flex gap-5 pt-5 px-5 align-items-start justify-content-between">
+                            <div>
+                                <h3>
+                                    sol
+                                </h3>
+                                <p>Amanecer</p>
+                                <p>Atardecer</p>
+                            </div>
+                        </div>
+                        <div class="card mt-3">
+                            <div class="d-flex row pt-4">
+                                <p>
+                                    <small class="text-body-secondary">Última actualización</small>
+                                </p>
+                                <h6>1 de enero, 2026 - 13:45</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 </body>
 </html>
