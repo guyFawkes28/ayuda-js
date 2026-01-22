@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../assets/boostrap/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-9 col-lg-8">
+
+      <div class="card shadow-sm">
+        <div class="card-body p-4">
+
+
+          <form class="row g-3">
+            <h1>Crear nuevo proyecto</h1>
+            <p>Registra un proyecto urbano para monitoreo climático</p>
+
+            <div class="col-12">
+              <label for="inputCity" class="form-label">Nombre del proyecto</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Monitoreo Ciudad de Bogotá">
+            </div>
+
+            <div class="col-12">
+              <label for="inputZip" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputZip" placeholder="Bogotá">
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputLat" class="form-label">Latitud</label>
+              <input type="number" step="any" class="form-control" id="inputLat" placeholder="4.7110">
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputLng" class="form-label">Longitud</label>
+              <input type="number" step="any" class="form-control" id="inputLng" placeholder="-74.0721">
+            </div>
+
+            <div class="col-12">
+              <label for="inputState" class="form-label">Estado de proyecto</label>
+              <select id="inputState" class="form-select">
+                <option selected>Activo</option>
+                <option>Pendiente</option>
+                <option>Option</option>
+              </select>
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Guardar proyecto</button>
+              <button type="button" class="btn btn-outline-secondary">Cancelar</button>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
