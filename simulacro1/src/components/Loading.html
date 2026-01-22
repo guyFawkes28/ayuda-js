@@ -159,7 +159,7 @@
                 </div>
             </div>
 
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Abrir menú de navegación">                <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Abrir menú de navegación">                <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -173,18 +173,21 @@
     </nav>
 
     <main class="container d-flex flex-grow-1 align-items-center justify-content-center py-5">
-        <div class="error-card text-center">
-            <svg class="error-icon mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
-            </svg>
-            <h2 class="h4 fw-bold mb-3 text-dark">Error al cargar los datos</h2>
-            <p class="text-muted mb-4">No se pudo conectar con la API de Open Meteo. Por favor, verifica tu conexión a internet e intenta nuevamente.</p>
-            <button class="btn btn-retry">
-                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
-                </svg>
-                Reintentar
-            </button>
+      
+        
+
+        <div class="py-5 text-center">
+        <div class="spinner-border text-primary mb-3 custom-spinner" role="status">
+            <span class="visually-hidden">Cargando...</span>
+        </div>
+
+        <h4 class="text-secondary fw-normal mb-1 loading-title">
+            Cargando datos climáticos...
+        </h4>
+
+        <p class="text-muted mb-0 loading-subtitle">
+            Conectando con la API Open-Meteo
+        </p>
         </div>
     </main>
 
