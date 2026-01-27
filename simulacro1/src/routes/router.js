@@ -1,4 +1,4 @@
-
+import { footerHtml } from "../components/Footer.js"
 
 
 
@@ -19,3 +19,6 @@ export const router = () =>{
 
 
 }
+
+
+
