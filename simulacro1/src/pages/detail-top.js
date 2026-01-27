@@ -1,14 +1,6 @@
-export const detailTop = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/styles/detail-top.css">
-    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
-    <title>Detail top</title>
-</head>
-<body>
+export const detailTop =()=>{ 
+return `
+
     <!-- Detail top -->
     <main>
         <div class="d-flex justify-content-center align-items-center row w-100" style="min-height: 100vh;">
@@ -133,6 +125,5 @@ export const detailTop = `
         </div>
 
     </main>
-</body>
-</html>
-`
+
+`}

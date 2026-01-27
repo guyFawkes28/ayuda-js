@@ -1,7 +1,5 @@
-import { formularioHTML } from "./components/formulario.js";
-
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("app").innerHTML = formularioHTML;
-});
+import { router } from "./routes/router";
 
 
+window.addEventListener('hashchange',router)
+window.addEventListener('load',router)
