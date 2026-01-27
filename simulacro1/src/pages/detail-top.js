@@ -1,3 +1,4 @@
+export const detailTop = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
 <body>
     <!-- Detail top -->
     <main>
-        <div class="d-flex justify-content-center align-items-center row w-100 bg-body-tertiary" style="min-height: 100vh;">
+        <div class="d-flex justify-content-center align-items-center row w-100" style="min-height: 100vh;">
             <div class="col-md-10 ">
                 <button type="button" class="btn btn-secondary btn-sm py-2 pe-3 fs-5 text-black bg-white border-dark-subtle rounded">
                     <svg class="back-icon " fill="none" stroke="currentColor" width="30" height="30">
@@ -134,3 +135,4 @@
     </main>
 </body>
 </html>
+`
