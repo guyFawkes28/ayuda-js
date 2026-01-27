@@ -1,4 +1,4 @@
-export const formularioHTML = `
+export const formularioHTML = ` 
 <!DOCTYPE html>
 <html lang="en">
 <head>
