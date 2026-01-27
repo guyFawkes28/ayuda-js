@@ -15,9 +15,9 @@ export function navbar() {
                 </div>
             </div>
             <nav class="header-nav">
-                <a href="index.html">Inicio</a>
-                <a href="#">Proyectos</a>
-                <a href="#">Acerca de</a>
+                <a href="#/dashboard">Inicio</a>
+                <a href="#/create-project">Proyectos</a>
+                <a href="#/no-exist">Acerca de</a>
             </nav>
         </div>
     </header>
