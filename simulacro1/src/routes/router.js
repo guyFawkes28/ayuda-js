@@ -23,6 +23,8 @@ import { navbar } from "../components/navbar.js";
 import { CreateProject } from "../pages/CreateProject.js";
 import { Dashboard } from "../pages/Dashboard.js";
 import { NotFound } from "../pages/NotFound.js";
+import { Error } from "../pages/Error.js";
+import { Loading } from "../pages/Loading.js";
 
 export function router(){
 
@@ -30,17 +32,19 @@ export function router(){
 
 switch (hash) {
     case '#/login':
-    render('<p>tedfsdfsdfds</p>')       
+        render('<p>tedfsdfsdfds</p>')       
         break;
     case '#/dashboard':
-             render(Dashboard())
+        render(Dashboard())
         break;
     case '#/create-project':
-             render(CreateProject())
+        render(CreateProject())
         break;
-
+    case '#/loading':
+        render(Loading())
+        break;
     default:
-        render(NotFound())
+        render(Error())
         break;
 }
 

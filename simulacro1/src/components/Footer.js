@@ -14,7 +14,7 @@ export function Footer(){
                 <div>
                     <h3 class="footer-section-title">Enlaces Útiles</h3>
                     <ul class="footer-links">
-                        <li><a href="#">Acerca del proyecto</a></li>
+                        <li><a href="#/loading">Acerca del proyecto</a></li>
                         <li><a href="#">Metodología</a></li>
                         <li><a href="#">Fuentes de datos</a></li>
                         <li><a href="#">Contacto</a></li>

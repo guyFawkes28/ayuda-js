@@ -3,6 +3,7 @@ import { navbar } from "./components/navbar.js"
 import { Footer } from "./components/Footer.js"
 import {CreateProject} from './pages/CreateProject.js'
 
+
 const app = document.getElementById('app')
 
 export function render(content) {
