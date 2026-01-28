@@ -2,6 +2,7 @@ import { router } from "./routes/router.js"
 import { navbar } from "./components/navbar.js"
 import { Footer } from "./components/Footer.js"
 import {CreateProject} from './pages/CreateProject.js'
+import { detail } from "./pages/detail-top-donw.js"
 
 
 const app = document.getElementById('app')
@@ -13,7 +14,7 @@ app.innerHTML = `
 ${navbar()}
 ${content}
 ${Footer()}
-
+${detail()}
 `
 
 }

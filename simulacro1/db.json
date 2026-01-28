@@ -3,17 +3,25 @@
   "proyectos": [
     {
       "id": "a53e",
-      "nombre": "dsa",
-      "city": "dsa",
+      "nombre": "carrera",
+      "city": "medellin",
       "lat": "432",
-      "long": "fjkdsjkf"
+      "long": "-225"
     },
     {
-      "id": "a53e",
-      "nombre": "dsa",
-      "city": "dsa",
+      "id": "a532",
+      "nombre": "cct de karol g",
+      "city": "barranquilla",
       "lat": "432",
-      "long": "fjkdsjkf"
+      "long": "587"
+    }, 
+    {
+      "id":"a532",
+      "nombre":"cc",
+      "city":"pereira",
+      "lat":"489",
+      "long":"-755" 
+
     }
   ]
 }

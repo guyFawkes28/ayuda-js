@@ -25,7 +25,7 @@ import { Dashboard } from "../pages/Dashboard.js";
 import { NotFound } from "../pages/NotFound.js";
 import { Error } from "../pages/Error.js";
 import { Loading } from "../pages/Loading.js";
-
+import { detail } from "../pages/detail-top-donw.js";
 export function router(){
 
     const hash = location.hash || '#/login'
@@ -42,6 +42,9 @@ switch (hash) {
         break;
     case '#/loading':
         render(Loading())
+        break;
+        case '#/detail':
+        render(detail())
         break;
     default:
         render(Error())

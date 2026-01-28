@@ -1,13 +1,6 @@
-export const detailTop = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/styles/detail-top.css">
-    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
-    <title>Detail top</title>
-</head>
+export function detail(){
+return`
+
 <body>
     <!-- Detail top -->
     <main>
@@ -134,5 +127,106 @@ export const detailTop = `
 
     </main>
 </body>
-</html>
-`
+<div class="container py-5">
+    
+    <h2 class="fw-bold mb-4 text-dark">Pronostico por Hora</h2>
+
+    <div class="card card-main shadow-sm p-4 mb-4">
+        <h5 class="fw-bold mb-4 text-secondary">Pronóstico por Hora</h5>
+        
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3 text-center">
+            
+            <div class="col">
+                <div class="forecast-card p-3 rounded-3 h-100">
+                    <p class="fw-bold mb-3 small">14:00</p>
+                    <div class="text-orange mb-3">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <rect x="4" y="14" width="3" height="6" rx="1"/><rect x="10" y="9" width="3" height="11" rx="1"/><rect x="16" y="4" width="3" height="16" rx="1"/>
+                        </svg>
+                    </div>
+                    <h5 class="fw-bold mb-1">23°</h5>
+                    <p class="text-muted text-small mb-0">Soleado</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="forecast-card p-3 rounded-3 h-100">
+                    <p class="fw-bold mb-3 small">15:00</p>
+                    <div class="text-orange mb-3">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <rect x="4" y="14" width="3" height="6" rx="1"/><rect x="10" y="9" width="3" height="11" rx="1"/><rect x="16" y="4" width="3" height="16" rx="1"/>
+                        </svg>
+                    </div>
+                    <h5 class="fw-bold mb-1">24°</h5>
+                    <p class="text-muted text-small mb-0">Soleado</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="forecast-card p-3 rounded-3 h-100">
+                    <p class="fw-bold mb-3 small">16:00</p>
+                    <div class="text-orange mb-3">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <rect x="4" y="14" width="3" height="6" rx="1"/><rect x="10" y="9" width="3" height="11" rx="1"/><rect x="16" y="4" width="3" height="16" rx="1"/>
+                        </svg>
+                    </div>
+                    <h5 class="fw-bold mb-1">23°</h5>
+                    <p class="text-muted text-small mb-0">Parcialmente nublado</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="forecast-card p-3 rounded-3 h-100">
+                    <p class="fw-bold mb-3 small">17:00</p>
+                    <div class="text-orange mb-3">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <rect x="4" y="14" width="3" height="6" rx="1"/><rect x="10" y="9" width="3" height="11" rx="1"/><rect x="16" y="4" width="3" height="16" rx="1"/>
+                        </svg>
+                    </div>
+                    <h5 class="fw-bold mb-1">22°</h5>
+                    <p class="text-muted text-small mb-0">Nublado</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="forecast-card p-3 rounded-3 h-100">
+                    <p class="fw-bold mb-3 small">18:00</p>
+                    <div class="text-orange mb-3">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <rect x="4" y="14" width="3" height="6" rx="1"/><rect x="10" y="9" width="3" height="11" rx="1"/><rect x="16" y="4" width="3" height="16" rx="1"/>
+                        </svg>
+                    </div>
+                    <h5 class="fw-bold mb-1">20°</h5>
+                    <p class="text-muted text-small mb-0">Nublado</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="forecast-card p-3 rounded-3 h-100">
+                    <p class="fw-bold mb-3 small">19:00</p>
+                    <div class="text-orange mb-3">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <rect x="4" y="14" width="3" height="6" rx="1"/><rect x="10" y="9" width="3" height="11" rx="1"/><rect x="16" y="4" width="3" height="16" rx="1"/>
+                        </svg>
+                    </div>
+                    <h5 class="fw-bold mb-1">19°</h5>
+                    <p class="text-muted text-small mb-0">Parcialmente nublado</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card card-main shadow-sm p-4">
+        <h5 class="fw-bold mb-3 text-secondary">Acerca del Proyecto</h5>
+        <h6 class="fw-bold mb-4 text-secondary"> este proyecto forma parte de la red nacional de observatorios urbanos y tiene como objetivo principal proporcionar informacion climatica y ambiental en tiemporeal a los ciudadano,tomadores de decisiones y medios de comunicacion </h6>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
+
+`}
+
