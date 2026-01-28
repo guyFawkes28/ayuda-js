@@ -30,7 +30,7 @@ export function CreateProject(){
 
           <div class="form-group">
             <label for="lon">Longitud</label>
-            <input type="number" id="lon" step="any" placeholder="-74.0721" required />
+            <input type="number" id="long" step="any" placeholder="-74.0721" required />
           </div>
         </div>
 
@@ -77,15 +77,18 @@ document.addEventListener('submit', async (e)=>{
     const form = e.target
     const city = form.querySelector('#city')
     const name = form.querySelector('#name')
+    const lat = form.querySelector('#lat')
+    const long = form.querySelector('#long')
     const projecto = 
     {
         nombre: name.value,
       city: city.value,
-      lat: "432",
-      long: "fjkdsjkf",
+      lat: lat.value,
+      long: long.value
     }
-    await createProject(projecto)
-    console.log(city.value);
+
+  await createProject(projecto)
+  location.hash = '#/dashboard'
     
 })
 
