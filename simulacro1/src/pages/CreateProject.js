@@ -79,12 +79,14 @@ document.addEventListener('submit', async (e)=>{
     const name = form.querySelector('#name')
     const lat = form.querySelector('#lat')
     const long = form.querySelector('#long')
+    const status = form.querySelector('#status')
     const projecto = 
     {
         nombre: name.value,
       city: city.value,
       lat: lat.value,
-      long: long.value
+      long: long.value,
+      status: status.value
     }
 
   await createProject(projecto)
